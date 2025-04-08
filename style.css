@@ -45,10 +45,10 @@ body {
 
 #question3 {
     position: absolute;
-    top: 10%; /* Ubica el título en la parte superior */
+    top: 5%; /* Ubica el título en la parte superior */
     left: 50%;
     transform: translateX(-50%);
-    font-size: 40px;
+    font-size: 15px;
     color: #000;
     z-index: 10; /* Asegura que el título esté encima de los botones */
     border: 2px solid #bdd3bd; /* Marco con color verde */
