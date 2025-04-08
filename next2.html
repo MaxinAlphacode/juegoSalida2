@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¿Qué raro?</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            background-color: white;
+        }
+
+        h1 {
+            font-size: 1.8rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .gif-bottom-left {
+            position: fixed; /* Fija el GIF en la esquina inferior izquierda */
+            bottom: 10px; /* Separación desde el borde inferior */
+            left: 10px; /* Separación desde el borde izquierdo */
+            width: 550px; /* Ajusta el tamaño del GIF */
+            height: auto; /* Mantiene las proporciones */
+        }
+
+        /* Ajustes para pantallas pequeñas */
+        @media (max-width: 768px) {
+            .container {
+                max-width: 90%; /* Ajustar el ancho del contenedor */
+                padding: 20px; /* Reducir el padding */
+            }
+
+            h1 {
+                font-size: 1.5rem; /* Reducir el tamaño del texto */
+            }
+
+            .gif-bottom-left {
+                width: 300px; /* Reducir el tamaño del GIF */
+                bottom: 5px; /* Ajustar la separación inferior */
+                left: 5px; /* Ajustar la separación izquierda */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 id="question3">Qué raro, aquí sí no puede fallar</h1>
+        <div id="buttons-container">
+            <!-- Los botones se generarán dinámicamente con JavaScript -->
+        </div>
+    </div>
+
+    <!-- GIF en la esquina inferior izquierda -->
+    <img src="https://media.tenor.com/hTqkj0fNOMUAAAAM/huh-cat-huh-m4rtin.gif" alt="Funny GIF" class="gif-bottom-left">
+
+    <script src="next2.js"></script>
+</body>
+</html>
