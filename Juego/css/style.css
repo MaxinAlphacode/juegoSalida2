@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#pregunta {
+    font-size: 60px;
+    margin-bottom: 20px;
+    color: #b31111;
+}
+
+#greeting {
+    font-size: 50px;
+    color: #1900ff;
+}
+
+#greeting2 {
+    font-family: 'Arial', sans-serif; /* Cambia 'Arial' por la fuente que prefieras */
+    font-size: 24px; /* Ajusta el tamaño de la fuente */
+    font-weight: bold; /* Negrita */
+    font-style: italic; /* Opcional: cursiva */
+    color: #ff5733; /* Cambia el color del texto */
+}
+
+.container {
+    text-align:center;
+}
+
+#question {
+    position: absolute;
+    top: 10%; /* Ubica el título en la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #000;
+    z-index: 10; /* Asegura que el título esté encima de los botones */
+}
+
+#question3 {
+    position: absolute;
+    top: 10%; /* Ubica el título en la parte superior */
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 40px;
+    color: #000;
+    z-index: 10; /* Asegura que el título esté encima de los botones */
+    border: 2px solid #bdd3bd; /* Marco con color verde */
+    border-radius: 15px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno para que el texto no toque el borde */
+    background-color: #ffffff; /* Fondo blanco para destacar */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para un efecto más elegante */
+}
+button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+}
+
+#yes-button {
+    background-color: #4caf50;
+    color: white;
+}
+
+#no-button {
+    position: absolute; /* Asegura que el botón pueda moverse */
+    background-color: #f44336; /* Rojo */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Estilos específicos para los botones de next2.js */
+.next2-no-button {
+    background-color: #f44336; /* Rojo */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 5; /* Asegura que los botones estén debajo del título */
+}
+
+.next2-yes-button {
+    background-color: #4caf50; /* Verde */
+    color: white;
+    font-size: 16px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    z-index: 5; /* Asegura que los botones estén debajo del título */
+}
