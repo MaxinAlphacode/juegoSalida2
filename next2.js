@@ -20,7 +20,7 @@ yesButton.textContent = "Sí";
 yesButton.classList.add("next2-yes-button"); // Clase única para el botón "Sí"
 yesButton.style.position = "absolute";
 yesButton.style.left = "50%"; // Posición fija para el botón "Sí"
-yesButton.style.top = "50%"; // Posición fija para el botón "Sí"
+yesButton.style.top = "80%"; // Posición fija para el botón "Sí"
 yesButton.style.transform = "translate(-50%, -50%)"; // Centrar el botón
 yesButton.style.width = "250px"; // Ancho más grande
 yesButton.style.height = "140px"; // Altura más grande
